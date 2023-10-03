@@ -1,0 +1,114 @@
+/*Colors and Fonts*/
+
+body {
+	background-color: rgb(230, 230, 230, 0.5);
+	color: rgb(50, 50, 50, 1.0);
+	font-family: Helvetica;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: Helvetica;
+	color: green;
+	font-weight: 100;
+	font-size: 40px;
+	
+}
+
+ h2 {
+		color: green;
+		font-weight: bolder;
+	}
+
+h3 {
+	font-family: Helvetica Neue;
+	font-weight: lighter;
+}
+
+a {
+	font-family: Helvetica Neue ;
+	text-decoration: none;
+	color: green;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/* Classes*/
+
+.container {
+	width: 700px; 
+	margin: 40px auto;
+	text-align: center;
+}
+
+@media (max-width: 760px) {
+.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background: white; 
+	padding: 60px; 
+	margin: 50px; 
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); 
+	border-radius: 4px;
+	text-align: center;
+}
+
+.image-circle {
+	border-radius: 50%;
+}
+
+#bouttonsecret {
+	background-color: rgba(0, 0, 0, 0);
+	padding: 5px 5px;
+	border-radius: 4px;
+}
+
+#bouttonsecret:hover {
+	background-color: green;
+	color: white;
+}
+
+.btn-green {
+	background-color: green;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-green:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230, 0.7);
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: green;
+}
+
+#intro p {
+	margin-bottom: 40px;
+}
